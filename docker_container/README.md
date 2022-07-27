@@ -7,3 +7,6 @@ git clone https://github.com/boot-services/metadata-service.git
 ```
 
 - refere dockerfile.multi for docker build 
+
+
+#### Exercise -5: Tag and Push the Image to hub.docker.com
