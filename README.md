@@ -4,7 +4,7 @@ Day 0: System Setup and AWS Account creation
 
 [Day 1: 4th Aug - Linux Container]
 
-[Day 2: 5th Aug - Kubernetes]
+[Day 2: 5th Aug - Kubernetes](./kubernetes)
 
 [Day 3: 8th Aug - Cloud & AWS]
 
