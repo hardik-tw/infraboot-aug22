@@ -29,3 +29,19 @@ $ kubeclt get namespaces
 $ kubectl get all --all-namespaces
 
 ```
+
+# minikube commands
+```s
+$ minikube version
+$ minikube ip
+$ minikube ssh 
+
+## show minikube's docker-env 
+$ docker images
+$ docker ps
+
+## come out of minikube to show docker-env
+$ docker images   //no images as docker not avilalbe 
+$ eval $(minikube docker-env)
+$ docker images
+$ docker ps
