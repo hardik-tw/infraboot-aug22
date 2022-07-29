@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: metadata
+spec:
+  containers:
+  - name: java-app
+    image: sunitparekh/metadata:v4.0
+    ports:
+    - containerPort: 8080
