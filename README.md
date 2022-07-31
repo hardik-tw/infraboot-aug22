@@ -1,6 +1,6 @@
-# TWI Infra Boot Camp - August 2022
+# TWI DevOps Boot Camp - August 2022
 
-Day 0: System Setup and AWS Account creation 
+[Day 0: System Setup and AWS Account creation](https://docs.google.com/document/d/1ROMA9NmBVA8rfSgtDysvc2BK0Mbpe4wRTmBVfq8Z1h4/edit)
 
 [Day 1: 4th Aug - Linux Container](./docker_container)
 
