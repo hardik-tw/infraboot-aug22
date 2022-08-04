@@ -1,0 +1,21 @@
+# 1. base image
+FROM node:lts-alpine
+
+# 2. set working dir 
+WORKDIR /usr/src/app
+
+# 3. copy Package only
+#COPY package*.json ./
+COPY . .
+
+# 4. run dependency 
+RUN npm install --only=production
+
+# 5. copy source code
+#COPY . .
+
+# 6. expose port 
+EXPOSE 8080
+
+# 7. Command to run after boot
+ENTRYPOINT [ "npm", "start"]
