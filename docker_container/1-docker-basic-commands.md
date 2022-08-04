@@ -69,6 +69,19 @@ Remove all untagged images
 docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
 ```
 
+Docker Network
+```s
+$ docker network ls
+$ docker inspect bridge
+$ docker container inspect <conainer name/id>
+$ docker network create <mynetwork-name>
+$ docker run -d -p 8088:80 --network <mynetwork-name> --name myweb9 nginx
+$ docker network disconnect mynet myweb9
+$ docker network connect mynet myweb9
 
-
+# Test connecting different containers from same network / user-defined bridge network / local host
+ping <another container IP>
+ping <laptop ip>
+etc.. 
+```
 
