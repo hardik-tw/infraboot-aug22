@@ -1,5 +1,11 @@
 # Kubernetes 
 
+[01-02-Overview](./01-02-Overview)
+[03-Pods-Demo](./03-pods-demo)
+[04-replicasets](./04-replicasets)
+[05-services](./05-services)
+[06-deployments](./06-deployments)
+
 ### Further Read
 1. Kubernetes Tutorial: https://kubernetes.io/docs/tutorials/
 2. Play with Kubernetes (online lab): https://labs.play-with-k8s.com/
@@ -9,3 +15,4 @@
 6. Kubectl cheatsheet: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
 
+  
