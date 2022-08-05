@@ -1,0 +1,18 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: nameapp
+  labels:
+    type: nameapp
+spec:
+  containers:
+  - name: nameapp
+    image: thecasualcoder/dobby
+    ports:
+    - containerPort: 4444
+    env:
+    - name: NAME
+      valueFrom:
+        secretKeyRef:
+          name: special-config
+          key: name

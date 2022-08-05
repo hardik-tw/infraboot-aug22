@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: pi
+spec:
+  template:
+    spec:
+      containers:
+      - name: pi
+        image: ubuntu
+        command: ["echo","Hello World"]
+      restartPolicy: Never
+  backoffLimit: 4
