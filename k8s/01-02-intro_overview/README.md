@@ -1,6 +1,6 @@
 ### Basic Commands for kubectl and minikube
 
-# basic version check
+### basic version check
 
 ```s
 $ kubectl version
@@ -9,7 +9,7 @@ $ kubectl cluster-info
 $ kubectl -h 
 ```
 
-# coomands related to kube configs
+### comands related to kube configs
 
 ```s
 $ kubectl config view
@@ -22,7 +22,7 @@ $ kubectl config current-context
 ```
 
 
-# kubectl commands to interact with cluster
+### kubectl commands to interact with cluster
 ```s
 $ kubectl api-resources
 $ kubectl get nodes -o wide
@@ -32,7 +32,7 @@ $ kubectl get all --all-namespaces
 
 ```
 
-# minikube commands
+### minikube commands
 ```s
 $ minikube version
 $ minikube ip
