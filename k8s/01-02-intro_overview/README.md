@@ -1,4 +1,4 @@
-### Basic Commands for kubectl and minikube
+# Basic Commands for kubectl and minikube
 
 ### basic version check
 
