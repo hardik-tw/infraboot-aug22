@@ -6,7 +6,7 @@
 
 [Day 2: 5th Aug - Kubernetes](./k8s)
 
-[Day 3: 8th Aug - Cloud & AWS]
+[Day 3: 8th Aug - Cloud & AWS](./cloud_aws)
 
 [Day 4: 9th Aug - IaC & Terraform]
 
