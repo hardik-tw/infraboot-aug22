@@ -16,3 +16,4 @@
 2. Output ec2 public ip 
 3. use varialbe and separate the .tf files
 4. explore option to have ami-id with data and filter (instead of hard-code)
+5. explore and do ebs volume encryption 
