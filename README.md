@@ -8,7 +8,7 @@
 
 [Day 3: 8th Aug - Cloud & AWS](./cloud_aws)
 
-[Day 4: 9th Aug - IaC & Terraform]
+[Day 4: 9th Aug - IaC & Terraform](./iac_terraform)
 
 [Day 5: 10th Aug - DevOps]
 
