@@ -15,3 +15,4 @@
 1. Two Resources to be created - ec2 and SG 
 2. Output ec2 public ip 
 3. use varialbe and separate the .tf files
+4. explore option to have ami-id with data and filter (instead of hard-code)
