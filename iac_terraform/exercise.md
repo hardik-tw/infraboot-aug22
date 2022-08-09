@@ -10,3 +10,8 @@
 - Create a Security Group with below inbound rule and use that SG for your ec2 resource
 - EC2 instance must have ssh access(port 22) and access on port 80 only to your Public IP and should restrict access to Public.  
 - Do not keep it open to the internet i.e 0.0.0.0/0
+
+## Ask: 
+1. Two Resources to be created - ec2 and SG 
+2. Output ec2 public ip 
+3. use varialbe and separate the .tf files
