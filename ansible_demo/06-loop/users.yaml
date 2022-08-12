@@ -1,0 +1,15 @@
+-
+  name: 'Create a new user in remote server'
+  hosts: myec2
+  vars:
+    users:
+      - user1
+      - user2
+      - user3
+      - user4
+  tasks:
+    -
+      name: 'create a new web user'
+      user:
+          name: '{{ item }}'
+      with_items: '{{ users }}'

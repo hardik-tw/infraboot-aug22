@@ -1,0 +1,10 @@
+-
+    name: 'Add name server entry if not already entered'
+    hosts: myec2
+    tasks:
+        -
+            shell: 'cat /home/centos/demo.txt'
+            register: command_output
+        -
+            shell: 'echo "nameserver 10.0.250.10" >> /home/centos/demo.txt'
+            when: "command_output.stdout.find('10.0.250.10') == -1"

@@ -1,0 +1,11 @@
+-
+  name: Add DNS server to resolv.conf
+  hosts: localhost
+
+  vars_files: 
+    - localhost.yaml
+
+  tasks:
+    - lineinfile:
+        path: /Users/hardik.patel/demo.txt
+        line: 'nameserver {{ ns_ip }}' 
