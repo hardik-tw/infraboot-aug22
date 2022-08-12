@@ -1,0 +1,9 @@
+-
+  name: append a line in file
+  hosts: myec2
+  tasks: 
+    -
+      name: 
+      lineinfile:
+        path: /home/centos/demo.txt
+        line: nameserver 10.20.10.3

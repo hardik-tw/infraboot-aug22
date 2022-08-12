@@ -1,0 +1,9 @@
+-
+  name: 'copy file from localhost to ec2'
+  hosts: myec2
+  tasks: 
+    -
+      name: coyp file
+      copy:
+        src: /Users/hardik.patel/demo.txt
+        dest: /home/centos/demo.txt

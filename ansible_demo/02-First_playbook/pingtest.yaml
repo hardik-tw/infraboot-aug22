@@ -1,0 +1,7 @@
+-
+  name: "ping test"
+  hosts: myec2
+  tasks:
+    -
+      name: "test connectivity"
+      ping:

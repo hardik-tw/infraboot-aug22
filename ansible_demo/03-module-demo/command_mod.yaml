@@ -1,0 +1,11 @@
+-
+  name: "test command module in ec2"
+  hosts: myec2
+  tasks:
+    -
+      name: create a directory
+      command: 'mkdir /home/centos/demo creates=/home/centos/demo'
+    -
+      name: crate a file
+      command: touch file.txt chdir=/home/centos/demo
+  
