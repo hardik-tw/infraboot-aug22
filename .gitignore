@@ -1,2 +1,4 @@
+.terraform
+.terraform/*
 *.exe
 .DS_Store
