@@ -14,7 +14,7 @@
 
 [Day 6: 11th Aug - Observability]
 
-[Day 7: 12th Aug - Configuration Management]
+[Day 7: 12th Aug - Configuration Management](./ansible_demo)
 
 [Day 8: 16th Aug - Assignment-1]
 
