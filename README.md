@@ -16,8 +16,4 @@
 
 [Day 7: 12th Aug - Configuration Management](./ansible_demo)
 
-[Day 8: 16th Aug - Assignment-1]
-
-[Day 9: 17th Aug - Assignment-2]
-
-[Day 10: 18th Aug - Assignment-3]
+[Day 8,9,10: 16th to 18th Aug - Assignment/ Miniproject](./assignment_miniproject)
