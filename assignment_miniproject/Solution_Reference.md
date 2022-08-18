@@ -148,3 +148,7 @@ It might take about 20-25 mins for the cluster creation, once the cluster setup 
 
 ## Milestone-5: Application is running inside EKS     
 > **Learning / Tech-stack to be used: Docker/ Container, K8S, AWS, Terraform**
+
+**Challenge faced:**   
+**Challenge-1:** Pods showing 'CrashLoopBackOff' state after deploying the k8s manifest.      
+**Troubleshooting steps:**    
